@@ -1,10 +1,41 @@
+/*Element Styles*/
+
 h1 {
     color: green;
     text-align: center;
+    font-family: Arial;
+}
+
+p {
+    color: black;
+    font-family: Calibri;
+}
+
+nav {
+    font-family: Calibri;
+    float: left;
+    width:25%;
+    max-width: 250px;
+    margin: 0;
+    color: black;
+    background-color:gray;
+    border: 1px solid darkgray;
+}
+
+nav ul {
+    list-style-type: none;
+
 }
 
 
-header, footer {
+article {
+    font-family: Calibri;
+    overflow: hidden;
+    margin: 0;
+    padding: 1em;
+}
+
+header {
 
     color: white;
     background-color:black;
@@ -12,10 +43,26 @@ header, footer {
     font-family:Arial;
     text-align: center;
     clear: left;
+    margin: 0;
     padding: 1em;
 
+}
+
+
+footer {
+
+    color: white;
+    background-color:black;
+    font-size:16px;
+    font-family:Arial;
+    text-align: center;
+    clear: left;
+    margin: 0;
+    padding: 4px;
 
 }
+
+/*Classes*/
 
 h1.KW {
 
@@ -34,4 +81,10 @@ p.KW {
     font-size:16px;
     font-family:Arial;
 
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+    background-color:darkgray;
 }

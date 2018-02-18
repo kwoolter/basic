@@ -12,8 +12,8 @@ function myFunction() {
     var z = x + y;
 
     document.getElementById("intro").innerHTML = "Paragraph changed.";
-    document.write("<p>...and some more...!</p>");
-    document.write(z);
+    // document.write("<p>...and some more...!</p>");
+    // document.write(z);
 
     return z;
 
