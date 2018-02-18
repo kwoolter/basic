@@ -2,3 +2,36 @@ h1 {
     color: green;
     text-align: center;
 }
+
+
+header, footer {
+
+    color: white;
+    background-color:black;
+    font-size:20px;
+    font-family:Arial;
+    text-align: center;
+    clear: left;
+    padding: 1em;
+
+
+}
+
+h1.KW {
+
+    color: white;
+    background-color:darkgreen;
+    font-size:32px;
+    font-family:Calibri;
+    text-align: center;
+
+}
+
+p.KW {
+
+    color: white;
+    background-color:darkgreen;
+    font-size:16px;
+    font-family:Arial;
+
+}
